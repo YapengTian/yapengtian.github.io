@@ -77,7 +77,7 @@ h4 {
     margin-top: 5rem; }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 767px) {
   .hidden-mobile {
     display: none;
   }
