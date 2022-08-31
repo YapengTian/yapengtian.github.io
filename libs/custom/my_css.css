@@ -85,7 +85,13 @@ h4 {
     color: rgba(0, 0, 0, 0.60); }
   .image {
     text-align: center; }
-  
+    
+  img.rounded {
+      object-fit: cover;
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+    }
   
   .figure img {
       margin: auto;
