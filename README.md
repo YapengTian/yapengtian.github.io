@@ -6,6 +6,11 @@ Change one of the files in `_data`, unless you are changing the look of the webs
 Test changes with:
 ```
 jekyll serve
+scp -r ./_site/* ../yapengtian.github.io
+
+git add .
+git commit -m "xxx"
+git push -u origin master
 ```
 
 Push to the ML web directory:
